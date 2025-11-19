@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#gameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+}
+
+canvas {
+  border: 1px solid #555;
+  background: radial-gradient(circle at top, #222 0%, #000 60%);
+  touch-action: none;
+}
+
+#info {
+  font-size: 14px;
+  opacity: 0.8;
+}
